@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Contracts;
 using System.Runtime.Serialization.Formatters;
 
 public class SayaTubeVideo
@@ -9,6 +10,7 @@ public class SayaTubeVideo
 
     public SayaTubeVideo(string title)
     {
+        if (title == null || title.Length > 200) throw new ArgumentNullException("Judul video tidak valid");  
         Random random = new Random();
         id = random.Next(10000, 99999);
         this.title = title;
@@ -17,7 +19,17 @@ public class SayaTubeVideo
 
     public void IncreasePlayCount(int playCount)
     {
+        if (playCount < 0 || playCount > 25000000) throw new ArgumentOutOfRangeException("input penambahan play count tidak valid");
+        try
+        {
+            checked { this.playCount += playCount; }
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine("Error: " + e.Message);
+        } 
         this.playCount += playCount;
+        
     }
 
     public int getPlayCount()
@@ -40,6 +52,7 @@ public class SayaTubeUser
 
     public SayaTubeUser(string nama)
     {
+        if (Username == null || Username.Length > 100) throw new ArgumentNullException("username tidak valid");
         Random random = new Random();
         id = random.Next(10000, 99999);
         this.Username = nama;
@@ -58,7 +71,8 @@ public class SayaTubeUser
 
     public void AddVideo(SayaTubeVideo video)
     {
-       uploadedVideos.Add(video);
+        Contract.Requires(video != null && video.getPlayCount() < int.MaxValue);
+        uploadedVideos.Add(video);
     }
 
     public void PrintAllVideo()
