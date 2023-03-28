@@ -1,0 +1,15 @@
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\bin\Debug\net6.0\modul6_1302210098.exe
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\bin\Debug\net6.0\modul6_1302210098.deps.json
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\bin\Debug\net6.0\modul6_1302210098.runtimeconfig.json
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\bin\Debug\net6.0\modul6_1302210098.dll
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\bin\Debug\net6.0\modul6_1302210098.pdb
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.csproj.AssemblyReference.cache
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.GeneratedMSBuildEditorConfig.editorconfig
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.AssemblyInfoInputs.cache
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.AssemblyInfo.cs
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.csproj.CoreCompileInputs.cache
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.dll
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\refint\modul6_1302210098.dll
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.pdb
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\modul6_1302210098.genruntimeconfig.cache
+E:\jurnal\modul6\modul6_1302210098\modul6_1302210098\obj\Debug\net6.0\ref\modul6_1302210098.dll
